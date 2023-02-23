@@ -1,6 +1,6 @@
 # DisjointSet
 
-[![Build Status](https://ci.appveyor.com/api/projects/status/github/byhill/DisjointSet.jl?svg=true)](https://ci.appveyor.com/project/byhill/DisjointSet-jl)
+[![Build Status](https://ci.appveyor.com/api/projects/status/github/byhill/DisjointSets.jl?svg=true)](https://ci.appveyor.com/project/byhill/DisjointSet-jl)
 
 An implementation of the Disjoint-set data structure for Julia.
 This package is based on JuliaCollections's implementation of the Disjoint-set data structure in
