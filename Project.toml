@@ -3,5 +3,7 @@ uuid = "0a43fbc4-409b-44ad-9d72-655a2bd2bd12"
 authors = ["byhill <byhill.xi1ej@dralias.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+
 [compat]
 julia = "1.8"
