@@ -26,9 +26,9 @@ elem = push!(s)          # adds a single element in a new set; returns the new e
 One may also use other element types:
 
 ```julia
-a = DisjointSets{AbstractString}(["a", "b", "c", "d"])
-union!(a, "a", "b")
-in_same_set(a, "c", "d")
-push!(a, "f")
+s = DisjointSets{AbstractString}(["a", "b", "c", "d"])
+union!(s, "a", "b")
+in_same_set(s, "c", "d")
+push!(s, "f")
 ```
 etc...
