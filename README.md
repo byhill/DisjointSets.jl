@@ -11,7 +11,7 @@ which allows one to find the size of any given set in near-constant time.
 ## Usage
 
 ```julia
-s = IntDisjointSets(10)  # creates a forest comprised of 10 singletons
+s = IntDisjointSet(10)  # creates a forest comprised of 10 singletons
 union!(s, 3, 5)          # merges the sets that contain 3 and 5 into one and returns the root of the new set
 root_union!(s, x, y)     # merges the sets that have root x and y into one and returns the root of the new set
                          # (assumes x != y)
@@ -26,7 +26,7 @@ elem = push!(s)          # adds a single element in a new set; returns the new e
 One may also use other element types:
 
 ```julia
-s = DisjointSets{AbstractString}(["a", "b", "c", "d"])
+s = DisjointSet{AbstractString}(["a", "b", "c", "d"])
 union!(s, "a", "b")
 in_same_set(s, "c", "d")
 push!(s, "f")
